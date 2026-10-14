@@ -1,0 +1,23 @@
+# Node
+node_modules/
+dist/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Testing
+coverage/
+playwright-report/
+test-results/
+
+# Editors
+.vscode/
+.idea/
